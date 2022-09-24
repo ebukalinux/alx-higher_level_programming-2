@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for a in "abcdefghijklmnopqrstuvwxyz":
-    print(f"{a}", end='')
+for c in range(97, 123):
+    print(chr(c), end=" ")
